@@ -13,6 +13,11 @@
 		E2F508101B0FE644008804F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F5080F1B0FE644008804F8 /* Images.xcassets */; };
 		E2F508131B0FE644008804F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F508111B0FE644008804F8 /* LaunchScreen.xib */; };
 		E2F5081F1B0FE644008804F8 /* TouchStampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5081E1B0FE644008804F8 /* TouchStampTests.swift */; };
+		E2F5082F1B1023B7008804F8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5082A1B1023B7008804F8 /* background.png */; };
+		E2F508301B1023B7008804F8 /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5082B1B1023B7008804F8 /* hana.png */; };
+		E2F508311B1023B7008804F8 /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5082C1B1023B7008804F8 /* hoshi.png */; };
+		E2F508321B1023B7008804F8 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5082D1B1023B7008804F8 /* onpu.png */; };
+		E2F508331B1023B7008804F8 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5082E1B1023B7008804F8 /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		E2F508181B0FE644008804F8 /* TouchStampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchStampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F5081D1B0FE644008804F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F5081E1B0FE644008804F8 /* TouchStampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchStampTests.swift; sourceTree = "<group>"; };
+		E2F5082A1B1023B7008804F8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
+		E2F5082B1B1023B7008804F8 /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hana.png; path = images/hana.png; sourceTree = "<group>"; };
+		E2F5082C1B1023B7008804F8 /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoshi.png; path = images/hoshi.png; sourceTree = "<group>"; };
+		E2F5082D1B1023B7008804F8 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onpu.png; path = images/onpu.png; sourceTree = "<group>"; };
+		E2F5082E1B1023B7008804F8 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shitumon.png; path = images/shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 		E2F507FA1B0FE644008804F8 = {
 			isa = PBXGroup;
 			children = (
+				E2F5082A1B1023B7008804F8 /* background.png */,
+				E2F5082B1B1023B7008804F8 /* hana.png */,
+				E2F5082C1B1023B7008804F8 /* hoshi.png */,
+				E2F5082D1B1023B7008804F8 /* onpu.png */,
+				E2F5082E1B1023B7008804F8 /* shitumon.png */,
 				E2F508051B0FE644008804F8 /* TouchStamp */,
 				E2F5081B1B0FE644008804F8 /* TouchStampTests */,
 				E2F508041B0FE644008804F8 /* Products */,
@@ -193,7 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F5080E1B0FE644008804F8 /* Main.storyboard in Resources */,
+				E2F508311B1023B7008804F8 /* hoshi.png in Resources */,
+				E2F508301B1023B7008804F8 /* hana.png in Resources */,
+				E2F5082F1B1023B7008804F8 /* background.png in Resources */,
 				E2F508131B0FE644008804F8 /* LaunchScreen.xib in Resources */,
+				E2F508321B1023B7008804F8 /* onpu.png in Resources */,
+				E2F508331B1023B7008804F8 /* shitumon.png in Resources */,
 				E2F508101B0FE644008804F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +429,7 @@
 				E2F508241B0FE644008804F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2F508251B0FE644008804F8 /* Build configuration list for PBXNativeTarget "TouchStampTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				E2F508271B0FE644008804F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
