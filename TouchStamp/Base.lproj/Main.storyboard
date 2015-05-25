@@ -19,15 +19,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="sD3-lQ-Fha">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="417"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzi-01-Lvg">
-                                <rect key="frame" x="21" y="425" width="46" height="46"/>
-                                <state key="normal" backgroundImage="hana.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedOne" destination="vXZ-lx-hvc" eventType="touchUpInside" id="adp-2o-uVj"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ib-bj-rCh">
                                 <rect key="frame" x="99" y="425" width="46" height="46"/>
                                 <state key="normal" backgroundImage="hoshi.png">
@@ -46,6 +37,16 @@
                                     <action selector="selectedFourth" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Uhw-oX-yB1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gO7-5G-tgR">
+                                <rect key="frame" x="16" y="487" width="80" height="46"/>
+                                <color key="backgroundColor" red="1" green="0.90524522519999995" blue="0.95952000189999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jJm-eh-e4Y"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQ3-Yu-LGs">
                                 <rect key="frame" x="119" y="487" width="80" height="46"/>
                                 <color key="backgroundColor" red="1" green="0.90524522519999995" blue="0.95952000189999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectBackground" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ick-ut-Jdr"/>
+                                    <action selector="selectBackground" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Hu-Mm-Ynd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnQ-7j-IIc">
@@ -63,11 +64,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="save" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f3v-4H-Cgw"/>
+                                    <action selector="save" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ymk-EE-SN6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZa-kz-uXu">
-                                <rect key="frame" x="182" y="430" width="35" height="35"/>
+                                <rect key="frame" x="176" y="425" width="46" height="46"/>
                                 <state key="normal" backgroundImage="onpu.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -75,14 +76,13 @@
                                     <action selector="selectedThird" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZfP-9P-0yh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gO7-5G-tgR">
-                                <rect key="frame" x="16" y="487" width="80" height="46"/>
-                                <color key="backgroundColor" red="1" green="0.90524522519999995" blue="0.95952000189999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="戻る">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzi-01-Lvg">
+                                <rect key="frame" x="24" y="425" width="46" height="46"/>
+                                <state key="normal" image="hana.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WBe-0M-YNc"/>
+                                    <action selector="selectedFirst" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6Jl-D1-5r7"/>
                                 </connections>
                             </button>
                         </subviews>
